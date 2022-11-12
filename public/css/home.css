@@ -1,0 +1,19 @@
+body {
+    background-image: url("/imagem/background.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-size: 2000px;
+  }
+
+#Container {
+  opacity: 0.8;
+}
+
+/*contei de informações da pag home*/
+#infor{
+  opacity: 1;
+}
+
+
+/*contei de informações da pag home*/

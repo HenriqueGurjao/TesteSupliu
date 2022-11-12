@@ -5,13 +5,11 @@ namespace App\Models;
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
 
-class Post extends Model
+class faixa extends Model
 {
     use HasFactory;
 
-    protected $table = 'album';
+    protected $table = 'faixa';
 
-    protected $fillable = ['nome','ano'];
-
-
+    protected $fillable = ['nome','duracao'];
 }
